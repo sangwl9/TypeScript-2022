@@ -1,9 +1,5 @@
 "use strict";
-class Block {
-    constructor(data) {
-        this.data = data;
-    }
-    static hello() {
-        return "hi";
-    }
-}
+const sangwoo = {
+    nickname: "nick",
+};
+sangwoo.hello();
