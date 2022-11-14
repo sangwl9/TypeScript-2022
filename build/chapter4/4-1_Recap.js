@@ -21,4 +21,4 @@ class Word {
 const kimchi = new Word("kimchi", "한국의 음식");
 const dict = new Dict();
 dict.add(kimchi);
-console.log(dict.def("kimchi"));
+dict.def("kimchi");
